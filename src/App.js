@@ -52,3 +52,5 @@ const navClick = ()=>{
 }
 
 export default App;
+
+/**use the command 'npm start' to start the server **/

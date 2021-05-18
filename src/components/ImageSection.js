@@ -1,5 +1,5 @@
 import React from 'react'
-import about from '../img/about.jpg'
+import about from '../img/about.JPG'
 import jspdf from 'jspdf'
 function ImageSection() {
 const downloadCV= ()=>{
@@ -10,9 +10,9 @@ const downloadCV= ()=>{
     putOnlyUsedFonts:false,
     floatPrecision: 16 
   })
-  pdf.addImage(about,'jpg',65,20,400,400)
-  pdf.addPage()
-  pdf.text(60,60, 'This is just a trial pdf')
+  //pdf.addImage(about,'jpg',65,20,400,400)
+ // pdf.addPage()
+  pdf.text(60,60, 'Thank you for Visiting. Working on the Cv')
   pdf.save('text.pdf')
 }
 
